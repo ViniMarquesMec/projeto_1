@@ -1,6 +1,4 @@
-export const turboLogger = (mesage, textColor = "blue") => {
+export const turboLogger = (mesage, textColor = "green") => {
   const textStyle = `color: ${textColor}`;
   console.log(`%c${mesage}`, textStyle);
 };
-
-// oloco selo
